@@ -55,7 +55,7 @@ def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
     else:
         print(f"\n{data_e_hora}\nA operação falhou! O valor informado é inválido.") # Caso o valor não seja maior que 0, será mostrada essa mensagem para o usuário.
 
-    return saldo, valor
+    return saldo, extrato
 
 def exibir_extrato(saldo, /, *, extrato):
     print(data_e_hora)
