@@ -1,4 +1,4 @@
-🐍 Otimizando o Sistema Bancário com Python
+🐍 **Otimizando o Sistema Bancário com Python**
 
 Este projeto teve como objetivo modularizar o código do sistema bancário, criando funções para operações de depósito, saque e visualização de extrato, além de duas novas funções: criação de usuário e criação de conta.
 
