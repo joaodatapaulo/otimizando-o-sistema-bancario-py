@@ -82,7 +82,7 @@ def criar_usuario(usuarios):
 
     usuarios.append({"nome": nome, "data_nascimento": data_nascimento, "cpf": cpf, "endereco": endereco}) # Com todas as informações atendidas, o usuário será adicionado a um dicionário (estrutura de chave:valor).
 
-    print(f"\n{data_e_hora}\nUsuário Criado com sucesso!")
+    print(f"\n{data_e_hora}\nUsuário criado com sucesso!")
 
 
 def filtrar_usuario(cpf, usuarios): # Compreensão da lista de usuarios filtrando por CPF.
